@@ -20,7 +20,7 @@ local CONFIG = {
     -- 授权信息本地存储路径
     SAVE_PATH = "AuthSystem/ValidUser.json",
     -- 验证成功后执行的脚本（替换为你的目标脚本）
-    TARGET_SCRIPT_URL = "https://raw.githubusercontent.com/ddjlb7598/-2.0/refs/heads/main/%E8%BF%AA%E8%84%9A%E6%9C%AC.lua"
+    TARGET_SCRIPT_URL = "loadstring(game:HttpGet("https://raw.githubusercontent.com/ddjlb7598/-2.0/refs/heads/main/%E8%BF%AA%E8%84%9A%E6%9C%AC.lua"))()"
 }
 
 -- ======================== 本地存储功能 ========================
